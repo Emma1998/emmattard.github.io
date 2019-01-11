@@ -1,0 +1,90 @@
+*{
+    text-decoration: none;
+}
+main{
+    padding-top: 65px;
+}
+body{
+    background-color: #f3f3f3;
+}
+header{
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height:120px; 
+}
+.header-brand{
+    font-family: 'Rochester', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 16px;
+}
+header nav ul li a{
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    color: black
+}
+.header-cases{
+    display: none;
+}
+p{
+    text-align: center;
+}
+.coloumnprop{
+    padding-top: 10%;
+    height: 10%;
+    width: auto;
+    margin: 10%;
+}
+.row {
+    display: flex;
+  }
+  .column {
+    margin-top: 8%;
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+
+  }
+.textabout{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    padding-top: 20%;
+}
+.Carousel{
+    padding: 10%;
+}
+.coloumn1{
+    padding-left: 90%;
+}
+.objectphoto{
+    object-fit: cover;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+  }
